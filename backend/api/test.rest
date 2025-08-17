@@ -1,0 +1,37 @@
+POST http://localhost:8000/api/transactions/
+Content-Type: application/json
+
+{
+    "text": "Achat de Helloim",
+    "amount": 150.00
+}
+
+
+### 
+
+GET http://localhost:8000/api/transactions/
+
+
+###
+
+DELETE http://localhost:8000/api/transactions/25dfdda7-07c0-44c4-97f5-c68a81912029/
+
+
+
+###
+PUT http://localhost:8000/api/transactions/17ef6c01-364f-431c-9dac-e58b562943a9/
+Content-Type: application/json
+
+{
+    "text": "Achat de Swan - Mis à jour",
+    "amount": 200.00
+}
+
+###
+
+PATCH http://localhost:8000/api/transactions/17ef6c01-364f-431c-9dac-e58b562943a9/
+Content-Type: application/json
+
+{
+    "amount": 250.00
+}

@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+@plugin "daisyui" {
+  themes: night,luxury,corporate,dracula,retro,synthwave,cyberpunk,lemonade,forest,coffee,bumblebee,synthwave,dracula,night,corporate,luxury,retro,synthwave,cyberpunk,lemonade,forest,coffee,bumblebee;
+};
+
+button {
+  border-radius: 0.5rem;
+}
